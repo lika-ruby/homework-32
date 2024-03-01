@@ -1,0 +1,36 @@
+.padding-hero {
+    padding: 40px 0;
+}
+
+.btn-section {
+    padding: 94px 0 25px;
+}
+
+.btn {
+    color: var(--title-color, #212121);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: var(--background-button-color, #f5f4fa);
+    padding: 6px 22px;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+        background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+        box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.btn-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--second-accent-color, #fff);
+    background-color: var(--accent-color, #2196f3);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
