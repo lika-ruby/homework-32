@@ -23,50 +23,50 @@
   <body>
     <header class="header" id="header">
       <div class="container">
-        <div class="container-header" data-aos="fade-down">
+        <div class="header__container" data-aos="fade-down">
           <!-- Лого -->
-          <a class="header-logo" href="./index.html"
-            >Web<span class="header-logo-accent">Studio</span></a
+          <a class="header__logo" href="./index.html"
+            >Web<span class="header__logo__accent--header">Studio</span></a
           >
           <!-- Головна навігація сайту -->
-          <nav class="header-nav">
-            <ul class="header-nav-list">
-              <li class="header-nav-item">
-                <a class="header-nav-link" href="./index.html">Студія</a>
+          <nav class="header__nav">
+            <ul class="header__nav__list">
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="./index.html">Студія</a>
               </li>
-              <li class="header-nav-item">
+              <li class="header__nav__item">
                 <a
-                  class="header-nav-link header-nav-link-checked"
+                  class="header__nav__link header__nav__link--checked"
                   href="./portfolio.html"
                   >Портфоліо</a
                 >
               </li>
-              <li class="header-nav-item">
-                <a class="header-nav-link" href="#contacts">Контакти</a>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#contacts">Контакти</a>
               </li>
             </ul>
           </nav>
           <!-- Контакти -->
-          <ul class="header-contacts-list">
-            <li class="header-contacts-item">
+          <ul class="header__contacts">
+            <li class="header__contacts__item">
               <a
-                class="header-contacts-link"
+                class="header__contacts__link"
                 href="mailto:info@devstudio.com"
                 target="_blank"
               >
-                <svg class="header-contacts-icon" width="16" height="12">
+                <svg class="header__contacts__icon" width="16" height="12">
                   <use href="./img/icons.svg#letter"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
-            <li class="header-contacts-item">
+            <li class="header__contacts__item">
               <a
-                class="header-contacts-link"
+                class="header__contacts__link"
                 href="tel:+380961111111"
                 target="_blank"
               >
-                <svg class="header-contacts-icon" width="10" height="16">
+                <svg class="header__contacts__icon" width="10" height="16">
                   <use href="./img/icons.svg#smartphone"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -78,45 +78,45 @@
     </header>
     <!-- Головна сторінка сайту -->
     <main>
-      <div class="padding-hero" id="scroll-to-top"></div>
+      <div class="padding__hero" id="scroll-to-top"></div>
       <!-- Кнопки -->
-      <section class="btn-section">
+      <section class="btn">
         <div class="container">
-          <ul class="btn-list">
-            <li class="btn-item" data-aos="fade-right">
-              <button class="btn" type="button">Усі</button>
+          <ul class="btn__list">
+            <li class="btn__item" data-aos="fade-right">
+              <button class="btn__btn" type="button">Усі</button>
             </li>
-            <li class="btn-item" data-aos="fade-down-right">
-              <button class="btn" type="button">Веб-сайти</button>
+            <li class="btn__item" data-aos="fade-down-right">
+              <button class="btn__btn" type="button">Веб-сайти</button>
             </li>
-            <li class="btn-item" data-aos="fade-down">
-              <button class="btn" type="button">Додатки</button>
+            <li class="btn__item" data-aos="fade-down">
+              <button class="btn__btn" type="button">Додатки</button>
             </li>
-            <li class="btn-item" data-aos="fade-down-left">
-              <button class="btn" type="button">Дизайн</button>
+            <li class="btn__item" data-aos="fade-down-left">
+              <button class="btn__btn" type="button">Дизайн</button>
             </li>
-            <li class="btn-item" data-aos="fade-left">
-              <button class="btn" type="button">Маркетинг</button>
+            <li class="btn__item" data-aos="fade-left">
+              <button class="btn__btn" type="button">Маркетинг</button>
             </li>
           </ul>
         </div>
       </section>
       <!-- Статті -->
-      <section class="article-section">
+      <section class="article">
         <div class="container">
-          <ul class="article-list">
+          <ul class="article__list">
             <!-- Перша стаття -->
-            <li class="article-item" data-aos="fade-down-right">
-              <a href="#" class="article-link">
-                <article class="article">
-                  <div class="photo-container">
+            <li class="article__item" data-aos="fade-down-right">
+              <a href="#" class="article__link">
+                <article class="article__article">
+                  <div class="article__photo">
                     <img
-                      class="article-photo"
+                      class="article__photo__content"
                       src="./img/products/product-1.jpg"
                       alt="сайт Технокряк"
                     />
-                    <div class="overlay">
-                      <p class="overlay-text">
+                    <div class="article__overlay">
+                      <p class="article__overlay__text">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
                         отримати вичерпні відомості про компанію чи приватну
@@ -124,25 +124,25 @@
                       </p>
                     </div>
                   </div>
-                  <div class="container-article">
-                    <h2 class="article-title">Технокряк</h2>
-                    <p class="article-desc">Веб-сайт</p>
+                  <div class="article__container">
+                    <h2 class="article__title">Технокряк</h2>
+                    <p class="article__desc">Веб-сайт</p>
                   </div>
                 </article>
               </a>
             </li>
             <!-- Друга стаття -->
-            <li class="article-item" data-aos="fade-down">
-              <a href="#" class="article-link">
-                <article class="article">
-                  <div class="photo-container">
+            <li class="article__item" data-aos="fade-down">
+              <a href="#" class="article__link">
+                <article class="article__article">
+                  <div class="article__photo">
                     <img
-                      class="article-photo"
+                      class="article__photo__content"
                       src="./img/products/product-2.jpg"
                       alt="Постер New Orlean vs Golden Star"
                     />
-                    <div class="overlay">
-                      <p class="overlay-text">
+                    <div class="article__overlay">
+                      <p class="article__overlay__text">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
                         отримати вичерпні відомості про компанію чи приватну
@@ -150,27 +150,27 @@
                       </p>
                     </div>
                   </div>
-                  <div class="container-article">
-                    <h2 class="article-title">
+                  <div class="article__container">
+                    <h2 class="article__title">
                       Постер New Orlean vs Golden Star
                     </h2>
-                    <p class="article-desc">Дизайн</p>
+                    <p class="article__desc">Дизайн</p>
                   </div>
                 </article>
               </a>
             </li>
             <!-- Третя стаття -->
-            <li class="article-item" data-aos="fade-down-left">
-              <a href="#" class="article-link">
-                <article class="article">
-                  <div class="photo-container">
+            <li class="article__item" data-aos="fade-down-left">
+              <a href="#" class="article__link">
+                <article class="article__article">
+                  <div class="article__photo">
                     <img
-                      class="article-photo"
+                      class="article__photo"
                       src="./img/products/product-3.jpg"
                       alt="Ресторан Seafood"
                     />
-                    <div class="overlay">
-                      <p class="overlay-text">
+                    <div class="article__overlay">
+                      <p class="article__overlay__text">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
                         отримати вичерпні відомості про компанію чи приватну
@@ -178,25 +178,25 @@
                       </p>
                     </div>
                   </div>
-                  <div class="container-article">
-                    <h2 class="article-title">Ресторан Seafood</h2>
-                    <p class="article-desc">Додаток</p>
+                  <div class="article__container">
+                    <h2 class="article__title">Ресторан Seafood</h2>
+                    <p class="article__desc">Додаток</p>
                   </div>
                 </article>
               </a>
             </li>
             <!-- Четверта стаття -->
-            <li class="article-item" data-aos="fade-right">
-              <a href="#" class="article-link">
-                <article class="article">
-                  <div class="photo-container">
+            <li class="article__item" data-aos="fade-right">
+              <a href="#" class="article__link">
+                <article class="article__article">
+                  <div class="article__photo">
                     <img
-                      class="article-photo"
+                      class="article-photo__content"
                       src="./img/products/product-4.jpg"
                       alt="Навушники"
                     />
-                    <div class="overlay">
-                      <p class="overlay-text">
+                    <div class="article__overlay">
+                      <p class="article__overlay__text">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
                         отримати вичерпні відомості про компанію чи приватну
@@ -204,25 +204,25 @@
                       </p>
                     </div>
                   </div>
-                  <div class="container-article">
-                    <h2 class="article-title">Проєкт Prime</h2>
-                    <p class="article-desc">Маркетинг</p>
+                  <div class="article__container">
+                    <h2 class="article__title">Проєкт Prime</h2>
+                    <p class="article__desc">Маркетинг</p>
                   </div>
                 </article>
               </a>
             </li>
             <!-- П'ята стаття -->
-            <li class="article-item" data-aos="zoom-in">
-              <a href="#" class="article-link">
-                <article class="article">
-                  <div class="photo-container">
+            <li class="article__item" data-aos="zoom-in">
+              <a href="#" class="article__link">
+                <article class="article__article">
+                  <div class="article__photo">
                     <img
-                      class="article-photo"
+                      class="article__photo__content"
                       src="./img/products/product-5.jpg"
                       alt="дві коробки"
                     />
-                    <div class="overlay">
-                      <p class="overlay-text">
+                    <div class="article__overlay">
+                      <p class="article__overlay__text">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
                         отримати вичерпні відомості про компанію чи приватну
@@ -230,25 +230,25 @@
                       </p>
                     </div>
                   </div>
-                  <div class="container-article">
-                    <h2 class="article-title">Проєкт Boxes</h2>
-                    <p class="article-desc">Додаток</p>
+                  <div class="article__container">
+                    <h2 class="article__title">Проєкт Boxes</h2>
+                    <p class="article__desc">Додаток</p>
                   </div>
                 </article>
               </a>
             </li>
             <!-- Шоста стаття -->
-            <li class="article-item" data-aos="fade-left">
-              <a href="#" class="article-link">
-                <article class="article">
-                  <div class="photo-container">
+            <li class="article__item" data-aos="fade-left">
+              <a href="#" class="article__link">
+                <article class="article__article">
+                  <div class="article__photo">
                     <img
-                      class="article-photo"
+                      class="article__photo__content"
                       src="./img/products/product-6.jpg"
                       alt="сайт Inspiration has no Borders"
                     />
-                    <div class="overlay">
-                      <p class="overlay-text">
+                    <div class="article__overlay">
+                      <p class="article__overlay__text">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
                         отримати вичерпні відомості про компанію чи приватну
@@ -256,25 +256,25 @@
                       </p>
                     </div>
                   </div>
-                  <div class="container-article">
-                    <h2 class="article-title">Inspiration has no Borders</h2>
-                    <p class="article-desc">Веб-сайт</p>
+                  <div class="article__container">
+                    <h2 class="article__title">Inspiration has no Borders</h2>
+                    <p class="article__desc">Веб-сайт</p>
                   </div>
                 </article>
               </a>
             </li>
             <!-- Сьома стаття -->
-            <li class="article-item" data-aos="fade-up-right">
-              <a href="#" class="article-link">
-                <article class="article">
-                  <div class="photo-container">
+            <li class="article__item" data-aos="fade-up-right">
+              <a href="#" class="article__link">
+                <article class="article__article">
+                  <div class="article__photo">
                     <img
-                      class="article-photo"
+                      class="article__photo__content"
                       src="./img/products/product-7.jpg"
                       alt="Видання Limited Edition"
                     />
-                    <div class="overlay">
-                      <p class="overlay-text">
+                    <div class="article__overlay">
+                      <p class="article__overlay__text">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
                         отримати вичерпні відомості про компанію чи приватну
@@ -282,25 +282,25 @@
                       </p>
                     </div>
                   </div>
-                  <div class="container-article">
-                    <h2 class="article-title">Видання Limited Edition</h2>
-                    <p class="article-desc">Дизайн</p>
+                  <div class="article__container">
+                    <h2 class="article__title">Видання Limited Edition</h2>
+                    <p class="article__desc">Дизайн</p>
                   </div>
                 </article>
               </a>
             </li>
             <!-- Восьма стаття -->
-            <li class="article-item" data-aos="fade-up">
-              <a href="#" class="article-link">
-                <article class="article">
-                  <div class="photo-container">
+            <li class="article__item" data-aos="fade-up">
+              <a href="#" class="article__link">
+                <article class="article__article">
+                  <div class="article__photo">
                     <img
-                      class="article-photo"
+                      class="article__photo__content"
                       src="./img/products/product-8.jpg"
                       alt="Проєкт LAB"
                     />
-                    <div class="overlay">
-                      <p class="overlay-text">
+                    <div class="article__overlay">
+                      <p class="article__overlay__text">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
                         отримати вичерпні відомості про компанію чи приватну
@@ -308,25 +308,25 @@
                       </p>
                     </div>
                   </div>
-                  <div class="container-article">
-                    <h2 class="article-title">Проєкт LAB</h2>
-                    <p class="article-desc">Маркетинг</p>
+                  <div class="article__container">
+                    <h2 class="article__title">Проєкт LAB</h2>
+                    <p class="article__desc">Маркетинг</p>
                   </div>
                 </article>
               </a>
             </li>
             <!-- Дев'ята стаття -->
-            <li class="article-item" data-aos="fade-up-left">
-              <a href="#" class="article-link">
-                <article class="article">
-                  <div class="photo-container">
+            <li class="article__item" data-aos="fade-up-left">
+              <a href="#" class="article__link">
+                <article class="article__article">
+                  <div class="article__photo">
                     <img
-                      class="article-photo"
+                      class="article__photo__content"
                       src="./img/products/product-9.jpg"
                       alt="додаток Growing Business"
                     />
-                    <div class="overlay">
-                      <p class="overlay-text">
+                    <div class="article__overlay">
+                      <p class="article__overlay__text">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
                         функціоналу та сервісів. Все це дозволить відвідувачу
                         отримати вичерпні відомості про компанію чи приватну
@@ -334,9 +334,9 @@
                       </p>
                     </div>
                   </div>
-                  <div class="container-article">
-                    <h2 class="article-title">Growing Business</h2>
-                    <p class="article-desc">Додаток</p>
+                  <div class="article__container">
+                    <h2 class="article__title">Growing Business</h2>
+                    <p class="article__desc">Додаток</p>
                   </div>
                 </article>
               </a>
@@ -348,32 +348,32 @@
     <!-- Підвал сайту -->
     <footer class="footer" id="contacts">
       <div class="container">
-        <div class="footer-container">
-          <div class="address-container" data-aos="fade-up-right">
-            <a class="footer-logo" href="#header"
-              >Web<span class="footer-logo-accent">Studio</span></a
+        <div class="footer__container">
+          <div class="footer__address__container" data-aos="fade-up-right">
+            <a class="footer__logo" href="#header"
+              >Web<span class="footer__logo__accent--footer">Studio</span></a
             >
             <!-- Адрес -->
-            <address class="footer-address">
+            <address class="footer__address">
               <a
-                class="footer-map"
+                class="footer__map"
                 target="_blank"
                 href="https://www.google.com/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+Ukraine,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu"
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
               <!-- Контакти -->
-              <ul class="footer-list">
-                <li class="footer-item">
+              <ul class="footer__list">
+                <li class="footer__item">
                   <a
-                    class="footer-link"
+                    class="footer__link"
                     href="mailto:info@devstudio.com"
                     target="_blank"
                     >info@devstudio.com</a
                   >
                 </li>
-                <li class="footer-item">
+                <li class="footer__item">
                   <a
-                    class="footer-link"
+                    class="footer__link"
                     href="tel:+380961111111"
                     target="_blank"
                     >+38 096 111 11 11</a
@@ -382,67 +382,67 @@
               </ul>
             </address>
           </div>
-          <div class="footer-icons-container" data-aos="fade-up">
-            <h2 class="footer-title">приєднуйтесь</h2>
-            <ul class="footer-icons-list">
-              <li class="footer-icon-item">
+          <div class="footer__icon" data-aos="fade-up">
+            <h2 class="footer__icon__title">приєднуйтесь</h2>
+            <ul class="footer__icon__list">
+              <li class="footer__icon__item">
                 <a
                   href="https://www.instagram.com/"
                   target="_blank"
-                  class="footer-icon-link"
+                  class="footer__icon__link"
                 >
-                  <svg class="footer-icon" width="20" height="20">
+                  <svg class="footer__icon__svg" width="20" height="20">
                     <use href="./img/icons.svg#instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-icon-item">
+              <li class="footer__icon__item">
                 <a
                   href="https://twitter.com/?lang=uk"
                   target="_blank"
-                  class="footer-icon-link"
+                  class="footer__icon__link"
                 >
-                  <svg class="footer-icon" width="20" height="20">
+                  <svg class="footer__icon__svg" width="20" height="20">
                     <use href="./img/icons.svg#twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-icon-item">
+              <li class="footer__icon__item">
                 <a
                   href="https://www.facebook.com/?locale=uk_UA"
                   target="_blank"
-                  class="footer-icon-link"
+                  class="footer__icon__link"
                 >
-                  <svg class="footer-icon" width="20" height="20">
+                  <svg class="footer__icon__svg" width="20" height="20">
                     <use href="./img/icons.svg#facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-icon-item">
+              <li class="footer__icon__item">
                 <a
                   href="https://ua.linkedin.com/"
                   target="_blank"
-                  class="footer-icon-link"
+                  class="footer__icon__link"
                 >
-                  <svg class="footer-icon" width="20" height="20">
+                  <svg class="footer__icon__svg" width="20" height="20">
                     <use href="./img/icons.svg#linkedin"></use>
                   </svg>
                 </a>
               </li>
             </ul>
           </div>
-          <form action="" class="footer-form" data-aos="fade-up-left">
-            <h2 class="footer-form-title">Підпишіться на розсилку</h2>
-            <div class="footer-form-container">
+          <form action="" class="footer__form" data-aos="fade-up-left">
+            <h2 class="footer__form__title">Підпишіться на розсилку</h2>
+            <div class="footer__form__container">
               <input
                 type="email"
-                class="footer-form-input"
+                class="footer__form__input"
                 placeholder="E-mail"
                 required
               />
-              <button class="footer-form-btn" type="submit">
+              <button class="footer__form__btn" type="submit">
                 Підписатися
-                <svg class="footer-form-svg" width="24" height="24">
+                <svg class="footer__form__svg" width="24" height="24">
                   <use href="./img/icons.svg#send"></use>
                 </svg>
               </button>
@@ -452,8 +452,8 @@
       </div>
     </footer>
     <div class="scroll container">
-      <a class="scroll-link" href="#scroll-to-top">
-        <svg class="scroll-icon" width="29" height="22">
+      <a class="scroll__link" href="#scroll-to-top">
+        <svg class="scroll__icon" width="29" height="22">
           <use href="./img/icons.svg#top-arrow"></use>
         </svg>
       </a>
