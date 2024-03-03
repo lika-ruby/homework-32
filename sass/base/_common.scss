@@ -1,6 +1,6 @@
 *::selection {
-    background-color: var(--accent-color);
-    color: var(--second-accent-color);
+    background-color: $accent-color;
+    color: $second-accent-color;
 }
 
 html {

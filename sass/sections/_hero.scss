@@ -31,19 +31,9 @@
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
     }
-    
-    @keyframes title-move {
-        0% {
-            transform: translate(400px, -100px);
-            opacity: 0;
-        }
 
-        100% {
-            transform: translate(0, 0);
-            opacity: 1;
-        }
-    }
-    
+
+
     &__button {
         color: $second-accent-color;
         text-align: center;
@@ -65,17 +55,5 @@
             background-color: $hover;
         }
     }
-    
-    @keyframes btn-move {
-        0% {
-            transform: translate(-400px, 100px);
-            opacity: 0;
-        }
 
-        100% {
-            transform: translate(0, 0);
-            opacity: 1;
-        }
-    }
 }
-

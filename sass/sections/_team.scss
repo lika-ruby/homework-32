@@ -6,7 +6,7 @@
         display: flex;
         justify-content: space-between;
     }
-    
+
     &__item {
         border-radius: 0px 0px 4px 4px;
         background: $background-color;
@@ -15,11 +15,11 @@
         max-width: 270px;
         padding-bottom: 30px;
     }
-    
+
     &__photo {
         margin-bottom: 30px;
     }
-    
+
     &__title {
         color: $title-color;
         text-align: center;
@@ -29,7 +29,7 @@
         letter-spacing: 1.08px;
         margin-bottom: 50px;
     }
-    
+
     &__subtitle {
         color: $title-color;
         font-size: 16px;
@@ -39,7 +39,7 @@
         margin-bottom: 10px;
         text-align: center;
     }
-    
+
     &__desc {
         color: $text-color;
         font-size: 16px;
@@ -49,7 +49,7 @@
         text-align: center;
         margin-bottom: 16px;
     }
-    
+
     &__icon {
         display: flex;
         justify-content: center;
@@ -64,25 +64,25 @@
             align-items: center;
             border-radius: 50%;
             transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+            &:hover,
+            &:focus {
+                background-color: $accent-color;
+            }
         }
-        
-        &__link:hover,
-        &__link:focus {
-            background-color: $accent-color;
-        }
-        
+
         &__svg {
             fill: $icon-fill;
             transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
         }
-        
+
         &__link:hover &__svg {
             fill: $second-accent-color;
         }
-        
+
         &__link:focus &__svg {
             fill: $second-accent-color;
         }
     }
-    
+
 }

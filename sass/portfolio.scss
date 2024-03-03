@@ -1,6 +1,8 @@
+@import "./utilities/vars";
+@import "./utilities/keyframes";
+
 @import "./base/reset";
 @import "./base/common";
-@import "./base/vars";
 @import "./base/container";
 
 @import "./components/scroll-to-top";
