@@ -18,7 +18,7 @@
     }
 
     &__title {
-        color: var(--second-accent-color, #fff);
+        color: $second-accent-color;
         text-align: center;
         font-size: 44px;
         font-weight: 900;
@@ -45,7 +45,7 @@
     }
     
     &__button {
-        color: var(--second-accent-color, #fff);
+        color: $second-accent-color;
         text-align: center;
         padding: 10px 32px;
         font-size: 16px;
@@ -53,7 +53,7 @@
         line-height: 1.87;
         letter-spacing: 0.96px;
         border-radius: 4px;
-        background-color: var(--accent-color, #2196f3);
+        background-color: $accent-color;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
         animation-name: btn-move;
@@ -62,7 +62,7 @@
 
         &:hover,
         &:focus {
-            background-color: var(--hover);
+            background-color: $hover;
         }
     }
     

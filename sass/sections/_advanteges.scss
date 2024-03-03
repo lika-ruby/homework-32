@@ -13,7 +13,7 @@
     &__icon-bg {
       width: 270px;
       height: 120px;
-      background-color: var(--background-team-color);
+      background-color: $background-team-color;
       border-radius: 4px;
       display: flex;
       justify-content: center;
@@ -21,7 +21,7 @@
     }
     
     &__subtitle {
-      color: var(--title-color, #212121);
+      color: $title-color;
       font-size: 14px;
       font-weight: 700;
       line-height: normal;
@@ -32,7 +32,7 @@
     }
     
     &__desc {
-      color: var(--text-color, #757575);
+      color: $text-color;
       font-size: 14px;
       font-weight: 400;
       line-height: 1.71;
@@ -45,7 +45,7 @@
     //    width: 270px;
     //    height: 120px;
     //    border-radius: 4px;
-    //    background: var(--background-team-color, #f5f4fa);
+    //    background: $background-team-color;
     //    background-image: url(../img/advantages/photo1.png);
     //    background-size: 70px;
     //    background-repeat: no-repeat;

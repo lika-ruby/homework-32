@@ -2,7 +2,7 @@
     padding: 47px 0 94px;
 
     &__title {
-        color: var(--title-color, #212121);
+        color: $title-color;
         text-align: center;
         font-size: 36px;
         font-weight: 700;
@@ -47,7 +47,7 @@
     }
     
     &__subtitle {
-        color: var(--second-accent-color);
+        color: $second-accent-color;
         font-size: 14px;
         font-weight: 700;
         letter-spacing: 0.42px;
